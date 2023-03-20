@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/orange_button_background" />
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/top_background" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/women3" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Signup Account \nFor You"
+                    android:textColor="#ffffff"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="64dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:hint="Your Email"
+                    android:background="@drawable/grey_edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:hint="Your Email"
+                    android:background="@drawable/grey_edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:hint="Password"
+                    android:background="@drawable/grey_edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/editTextTextPersonRePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:hint="RePassword"
+                    android:background="@drawable/grey_edittext_background"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="24dp"
+                    android:textAlignment="center"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="#4972f2"
+                    android:background="@drawable/button_orange_background"
+                    android:layout_marginBottom="24dp"
+                    style="@android:style/Widget.Button"
+                    android:text="Signup" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
